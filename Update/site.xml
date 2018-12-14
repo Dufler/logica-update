@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/it.ltc.logica.trasporti_1.0.1.201812141545.jar" id="it.ltc.logica.trasporti" version="1.0.1.201812141545">
+      <category name="it.ltc.logica.trasporti"/>
+   </feature>
+   <feature url="features/it.ltc.logica.common_1.0.0.201812141545.jar" id="it.ltc.logica.common" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.common"/>
+   </feature>
+   <feature url="features/it.ltc.logica.containerfeature_1.0.0.201812141545.jar" id="it.ltc.logica.containerfeature" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.common"/>
+   </feature>
+   <feature url="features/it.ltc.logica.amministrazione_1.0.0.201812141545.jar" id="it.ltc.logica.amministrazione" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.amministrazione"/>
+   </feature>
+   <feature url="features/it.ltc.logica.admin_1.0.0.201812141545.jar" id="it.ltc.logica.admin" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.admin"/>
+   </feature>
+   <feature url="features/it.ltc.logica.ufficio_1.0.0.201812141545.jar" id="it.ltc.logica.ufficio" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.ufficio"/>
+   </feature>
+   <feature url="features/it.ltc.logica.cdg_1.0.0.201812141545.jar" id="it.ltc.logica.cdg" version="1.0.0.201812141545">
+      <category name="it.ltc.logica.cdg"/>
+   </feature>
+   <category-def name="it.ltc.logica.trasporti" label="Trasporti">
+      <description>
+         Feature contenente tutti i plugin legati ai trasporti.
+      </description>
+   </category-def>
+   <category-def name="it.ltc.logica.common" label="Base">
+      <description>
+         Feature con i plugin base di Logica.
+      </description>
+   </category-def>
+   <category-def name="it.ltc.logica.amministrazione" label="Amministrazione">
+      <description>
+         Questa feature contiene i plugin relativi all&apos;amministrazione.
+      </description>
+   </category-def>
+   <category-def name="it.ltc.logica.admin" label="Admin"/>
+   <category-def name="it.ltc.logica.ufficio" label="Ufficio"/>
+   <category-def name="it.ltc.logica.cdg" label="Controllo di Gestione"/>
+</site>
