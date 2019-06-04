@@ -17,8 +17,8 @@ import java.nio.file.attribute.BasicFileAttributes;
  */
 public class UpdateProcedureHTTP extends SimpleFileVisitor<Path> {
 	
-	private static final String localPath = "C:/Users/Damiano/git-logica/Update/";
-	private static final String buildPath = "C:/Users/Damiano/workspace-jee/it.ltc.logica.update/WebContent/";
+	private static final String localPath = "C:/Users/Damiano/git-logica-update/Update/";
+	private static final String buildPath = "C:\\Users\\Damiano\\git-logica-update\\it.ltc.logica.update\\WebContent";
 	
 	private Path sourceDir;
     private Path targetDir;
